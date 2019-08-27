@@ -1,0 +1,5 @@
+Which stock has Sally ordered.
+
+
+
+select stock.name from stock, Customers, Orsers where stock.id=orders.ItemId and Customers.id = orders.CustId and Customers.name = 'Sally';select stock.name from stock, Customers, Orsers where stock.id=orders.ItemId and Customers.id = orders.CustId and Customers.name = 'Sally';
